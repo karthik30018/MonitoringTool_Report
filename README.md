@@ -58,7 +58,7 @@ app.listen(port, () => {
 - 205: Reset Content.
 - 206: Partial Content.
 
-**Client Side Errors**
+**Client Side Errors:**
 - 400 Bad Request.
 - 401 Unauthorized.
 - 402 Payment Required.
@@ -68,7 +68,7 @@ app.listen(port, () => {
 - 408 Request Timeout.
 - 409 Conflict
 
-**Informational**
+**Informational:**
 - 413 Payload too large.
 - 415 Unsupported Media Type.
 - 422 Unprocessable Entity.
@@ -78,7 +78,7 @@ app.listen(port, () => {
 - 503 Service Unavailable
 - 504 Gateway Timeout
 
-**Redirectional**
+**Redirectional:**
 - 301 Moved Permanently.
 - 302 Found but moved temporarily.
 - 304 Not modified.
