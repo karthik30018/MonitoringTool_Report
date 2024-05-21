@@ -102,3 +102,34 @@ app.listen(port, () => {
 - Were able to fetch the token manually by inspecting the network tab of the page.
 - Could hit the endpoint by including the token in the headers authorisation.
 
+## Day 4:
+
+### Task:
+- To fetch the access token from the network tab through code by using puppeeter.
+- To perform code level monitoring for the provided custom solution.
+
+**Progress:**
+- We investigated some approaches to fetch access token from the network tab, out of which we decided to use puppeeter. 
+- For scheduling the renewal of token we used cron job schedulling approach.
+
+**Puppeeter**
+- Puppeteer is a Node.js library that provides a high-level API for controlling and automating web browsers.
+- It supports a wide range of browser automation features, including navigating pages, interaction with elements, filling forms, clicking buttons 
+  and handling events.
+- Allows you to take screenshots of web pages, capture PDFs and even generate videos of the rendered pages, making it useful for visual testing and 
+  monitoring.
+- It provides powerful tools for debugging and troubleshooting, includes the ability to trace network request, intercept responses and emulate 
+  various devices and network condition.
+- Can be integrated with popular testing framework like *Jest* or *Mocha*, making it valuable tool for end to rnd testing.
+
+**Cron Job Schedular**
+- Cron jobs are scheduled at recurring intervals, specified using a format based on unix-cron. You can define a schedule so that your job runs 
+  multiple times a day, or runs on specific days and months.
+- A schedule is defined using the unix-cron string format (* * * * *) which is a set of five fields in a line, indicating when the job should be 
+  executed.
+  ![cron job](https://github.com/karthik30018/MonitoringTool_Report/assets/143400284/d8738751-5a99-415b-9477-e42ffc9137b4)
+- To play around with it, reffered this link - https://crontab.guru/.
+
+ 
+    
+
