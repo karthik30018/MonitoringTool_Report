@@ -162,6 +162,15 @@ app.listen(port, () => {
 **Progress:**
 - Stored all the sensitive data inside the `.env` file.
 - Created a seperate server script for the healthCheck.
- 
+
+## Day 8:
+
+### Task:
+- To implement batch scheduling for the APIs, allowing them to be called simultaneously.
+- To check for the status codes other than 200,400 and 500 in the same series.
+
+**Progress:**
+- Implemented error mechanism to the provided custom solution and created a seperate middleware to display the code runtime error messages.
+  
     
 
