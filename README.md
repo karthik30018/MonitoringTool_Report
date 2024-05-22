@@ -154,8 +154,14 @@ app.listen(port, () => {
 **Progress:**
 - We also hosted the script on ngrok, where it could be accessible by the team members via the link.
 
+## Day 7:
 
+### Task:
+- Provided a custom solution for which we were required to perform error handling for code level checking.
 
+**Progress:**
+- Stored all the sensitive data inside the `.env` file.
+- Created a seperate server script for the healthCheck.
  
     
 
