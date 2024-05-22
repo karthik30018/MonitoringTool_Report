@@ -144,7 +144,15 @@ app.listen(port, () => {
 
 - A tool that provides a secure tunneling to your local development environment or server.
 - Basically it allows you to expose your local server behind your local internet or firewall to the outside internet, which makes it easier and accessible for testing or debugging.
-  
+
+## Day 6:
+
+### Task:
+- Encryping the sensitive data.
+- To create seperate server for healthCheck(EndPointCheck).
+
+**Progress:**
+- We also hosted the script on ngrok, where it could be accessible by the team members via the link.
 
 
 
