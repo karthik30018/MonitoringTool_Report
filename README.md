@@ -128,7 +128,25 @@ app.listen(port, () => {
 - A schedule is defined using the unix-cron string format (* * * * *) which is a set of five fields in a line, indicating when the job should be 
   executed.
   ![cron job](https://github.com/karthik30018/MonitoringTool_Report/assets/143400284/d8738751-5a99-415b-9477-e42ffc9137b4)
-- To play around with it, reffered this link - https://crontab.guru/.
+- To play around with it, reffered this link - https://crontab.guru/.## Day 4:
+
+## Day 5:
+
+### Task:
+- Using Ngrok to Host: We talked about using Ngrok to host our application. It’s a tool that helps us share our local server with others over the internet. This can be handy for testing and 
+  showing our work to others.
+
+**Progress:**
+- We have implemented the retrieval of the authorisation token using puppeteer headless browsing and by specifying the username and password.
+- The next steps include encrypting sensitive data using .env files and automating the fetching of the authorisation token using cron job.
+
+**NgRok**
+
+- A tool that provides a secure tunneling to your local development environment or server.
+- Basically it allows you to expose your local server behind your local internet or firewall to the outside internet, which makes it easier and accessible for testing or debugging.
+  
+
+
 
  
     
